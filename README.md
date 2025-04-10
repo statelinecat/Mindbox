@@ -1,8 +1,6 @@
 # Mindbox
  Mindbox test
 
-# Geometry Library
-
 Библиотека для вычисления площадей геометрических фигур.
 
 ## Установка
@@ -14,7 +12,7 @@ pip install -e .
 ## Использование
 
 ```python
-from geometry_lib.shapes import Circle, Triangle
+from mindbox_lib.shapes import Circle, Triangle
 
 circle = Circle(5)
 print(circle.area())

@@ -1,6 +1,6 @@
 import unittest
 import math
-from shapes import Circle, Triangle, calculate_area
+from mindbox_lib.shapes import Circle, Triangle, calculate_area
 
 
 class TestShapes(unittest.TestCase):

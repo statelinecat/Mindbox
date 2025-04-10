@@ -1,10 +1,10 @@
 class GeometryError(Exception):
-    """Базовое исключение для всех ошибок библиотеки геометрии"""
+
     pass
 
 
 class NegativeValueError(GeometryError):
-    """Ошибка при передаче отрицательного значения"""
+
     def __init__(self, value_name: str, value: float):
         self.value_name = value_name
         self.value = value
@@ -12,7 +12,7 @@ class NegativeValueError(GeometryError):
 
 
 class TriangleExistError(GeometryError):
-    """Ошибка, когда треугольник не может существовать с заданными сторонами"""
+
     def __init__(self, a: float, b: float, c: float):
         self.a = a
         self.b = b
